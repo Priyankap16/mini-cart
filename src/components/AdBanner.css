@@ -1,0 +1,11 @@
+.ad-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ad-banner img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+  display: block;
+}

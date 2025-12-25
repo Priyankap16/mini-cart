@@ -1,0 +1,125 @@
+.login {
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  width: 130px;
+  margin: 30px 0 20px;
+}
+
+.login__container {
+  width: 360px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.login__container h1 {
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.login__container label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login__container input {
+  width: 100%;
+  height: 38px;
+  margin: 8px 0 16px;
+  padding: 6px 10px;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login__container input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #febd69;
+}
+
+.login__signInButton {
+  width: 100%;
+  height: 36px;
+  background: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login__signInButton:hover {
+  background: #ddb347;
+}
+
+.login__terms {
+  font-size: 12px;
+  margin: 16px 0;
+  color: #555;
+}
+
+.login__divider {
+  text-align: center;
+  margin: 18px 0;
+  position: relative;
+}
+
+.login__divider::before,
+.login__divider::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: #ddd;
+  position: absolute;
+  top: 50%;
+}
+
+.login__divider::before {
+  left: 0;
+}
+
+.login__divider::after {
+  right: 0;
+}
+
+.login__divider span {
+  font-size: 12px;
+  background: #fff;
+  padding: 0 10px;
+  color: #555;
+}
+
+.login__googleButton,
+.login__facebookButton {
+  width: 100%;
+  height: 38px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login__googleButton {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.login__googleButton:hover {
+  background: #f7f7f7;
+}
+
+.login__facebookButton {
+  background: #1877f2;
+  color: #fff;
+  border: none;
+}
+
+.login__facebookButton:hover {
+  background: #166fe5;
+}

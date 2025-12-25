@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.brand {
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.nav-link {
+  margin-right: 12px;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.greet {
+  font-weight: 600;
+  color: #111;
+}
+
+.cart-link {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
