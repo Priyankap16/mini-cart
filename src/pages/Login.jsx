@@ -10,12 +10,14 @@ function Login() {
     navigate("/searchProduct");
   };
 
+ 
   const handleGoogleLogin = () => {
-    window.location.href = "https://accounts.google.com/";
-  };
+  alert("Demo login only. OAuth not implemented.");
+};
+
 
   const handleFacebookLogin = () => {
-    window.location.href = "https://www.facebook.com/login/";
+    alert("Demo login only. OAuth not implemented.");
   };
 
   return (
