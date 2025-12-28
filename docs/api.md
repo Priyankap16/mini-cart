@@ -58,18 +58,5 @@ Response Example:
 }
 
 
-Notes:
-The above endpoints are simulated; actual data is stored locally in Redux
-Can be replaced with real backend API in future versions
 
----
 
-### ✅ How to use these
-1. Copy `developer-guide.md` and `api.md` into `docs/` folder in VS Code  
-2. Save the files  
-3. Push to GitHub:
-
-```bash
-git add docs/developer-guide.md docs/api.md
-git commit -m "Add developer guide and API documentation"
-git push
