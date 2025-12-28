@@ -6,6 +6,7 @@ The Mini Mart is a React.js-based e-commerce web application. It demonstrates co
 ## Project Structure
 src/
 ├── components/ # Reusable UI components (ProductCard, CartItem, Header)
+
 ├── pages/ # Page components (Home, Cart, Checkout)
 ├── redux/ # Redux store & slices for cart management
 ├── data/ # Mock product data (JSON)
